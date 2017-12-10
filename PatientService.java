@@ -5,9 +5,11 @@ class PatientService {
     private final List<Patient> patients = new ArrayList<>();
 
     PatientService() {
-        this.patients.add(new Patient("Jan", "Kowalski", 11));
         this.patients.add(new Patient("Adam", "Nowak", 12));
-        this.patients.add(new Patient("Maria", "Nowakowska", 13));
+        this.patients.add(new Patient("Maria", "Nowakowska", 14));
+        this.patients.add(new Patient("Daria", "Polakowska", 15));
+        this.patients.add(new Patient("Aria", "Nosowska", 16));
+        this.patients.add(new Patient("Katarzyna", "Dworakowska", 17));
     }
 
     List<Patient> getAll() {
