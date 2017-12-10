@@ -11,6 +11,7 @@ class PatientService {
         this.patients.add(new Patient("Katarzyna", "Dworakowska", 17));
         this.patients.add(new Patient("Mariola", "Marmolada", 19));
         this.patients.add(new Patient("Katarzyna", "Zając", 17));
+        this.patients.add(new Patient("Bożena", "Jeż", 17));
     }
 
     List<Patient> getAll() {
